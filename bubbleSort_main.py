@@ -1,6 +1,6 @@
 
 
-# Bubble Sort Algorithm will bubble the biggest elements to end of the array
+# Bubble Sort Algorithm will bubble the biggest elements to end of the array. Bubble Sort is: Quadratic O(N^2)
 def bubble_sort(list):
 
     unsorted_until_index = len(list) - 1    # Used to keep track of up to which element the list is unsorted, to which the whole list is unsorted so it equals at the last element of the list
